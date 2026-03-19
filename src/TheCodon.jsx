@@ -307,7 +307,7 @@ function Marquee() {
   return (
     <div style={{ borderTop: "1px solid rgba(57,255,20,0.1)", borderBottom: "1px solid rgba(57,255,20,0.1)", padding: "14px 0", overflow: "hidden", background: "rgba(57,255,20,0.015)" }}>
       <div style={{ display: "flex", whiteSpace: "nowrap", animation: "marquee 28s linear infinite" }}>
-        {[0, 1].map(i => <span key={i} style={{ fontFamily: "'Syne',sans-serif", fontSize: 12, letterSpacing: "0.25em", color: "#39FF14", paddingRight: 60, fontWeight: 700 }}>{t}</span>)}
+        {[0, 1].map(i => <span key={i} style={{ fontFamily: "'Syne',sans-serif", fontSize: 12, letterSpacing: "0.25em", color: "#FF6B35", paddingRight: 60, fontWeight: 700 }}>{t}</span>)}
       </div>
     </div>
   );
